@@ -129,7 +129,6 @@ div{
 	width:20%;
 }
 .servizi{
-
 }
 .servizi2{
 }
@@ -474,12 +473,18 @@ div{
 }
 
 .tornasu{
-	animation-name: scrollTOP;
-	animation-duration: 3s;
+	cursor:pointer; 
+	background-color:#e8bd00; 
+	width: 100px; 
+	height: 100px; 
+	font-size: 20px; 
+	text-align:center; 
+	border: none;
+	border-radius: 50px;
 }
 
-@keyframes scrollTOP{
-	from{}
+.tornasu:hover{
+	background-color: #c29e00;
 }
 
 
@@ -693,19 +698,22 @@ div{
 
 
 
-<div style="background-color: #746f63;text-align: center; padding-bottom:2%; display:inline-flex">
+<div style="background-color: #746f63;text-align: center; padding-bottom:2%; display:inline-flex; padding-top: 50px;">
 
 	<div style="border: 10px solid white; padding: 2%; width: 90%; margin-left: 2%; font-weight: normal; display:inline-flex;">
 		<div style="color:white; text-align:left; font-size: 14px; font-family: arial; line-height: 1.6; width: 80%">
 			<b>Aster SRL </b>- Agenzia Servizi al Territorio - Via Imre Nagy, 2/4/6 - Borgochiesanuova - Mantova <br>
 			Telefono: 0376/1969555 - Fax: 0376/265021 - P.Iva e C.F. 02071790204 - REA n. 221907
 			<p style="margin-top: 20px">Capitale versato € 30.000,00</p>
+			<br>
+			<br>
+			<br>
+			
+			<a href="https://www.google.com" style="color:white; font-size: 18px">Privacy Policy</a>
+			<a href="https://www.google.com" style="color:white; font-size: 18px; margin-left: 10px; border-left: 2px solid white; padding-left: 10px;">Note Legali</a>
+			<a href="https://www.google.com" style="color:white; font-size: 18px; margin-left: 10px; border-left: 2px solid white; padding-left: 10px;">Amministrazione Trasparente</a>
 		</div>
-			<a href="#"><button style="background-color:#e8bd00; margin-left:5%; width: 100px; height: 100px; font-size: 20px; text-align:center;"> <div style="margin-left: 22%" class="chevron"></div> Torna su </button></a>
-	</div>
-	
-	
-
+		<a style="margin-left: 80px; background-color:blue; width: 100px; height: 100px; border-radius: 50px;" href="#"><button class="tornasu"><div style="margin-left: 22%;" class="chevron"></div>Torna su</button></a>
 </div>
 
 

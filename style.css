@@ -186,7 +186,7 @@ div{
 
 
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1740px){
 
     .contenitore{
         display: block;
@@ -240,7 +240,7 @@ div{
 	}
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1740px){
 
     .contenitore{
         display:inline-flex;
@@ -253,8 +253,12 @@ div{
 		display:inline-flex;
 	}
 	.divCarosello{
-		width:100%;
-		height:auto;
+		width:auto;
+		height:100%;
+	}
+	.divCarosello img{
+		width:auto;
+		height:840px;
 	}
 	
 	.divCarosello2{
@@ -319,7 +323,7 @@ div{
 		width: 100%;
 	}
 	.divCarosello{
-		background-color: #fff;
+		background-color: #746f63;
 		width: 100%;
 		height:auto;
 	}
